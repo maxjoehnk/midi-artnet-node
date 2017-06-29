@@ -1,0 +1,33 @@
+{
+  "name": "midi-artnet-node",
+  "version": "1.0.0",
+  "description": "Bind one or multiple Midi Devices to an Artnet Node",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxjoehnk/midi-artnet-node.git"
+  },
+  "keywords": [
+    "artnet",
+    "midi"
+  ],
+  "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/maxjoehnk/midi-artnet-node/issues"
+  },
+  "homepage": "https://github.com/maxjoehnk/midi-artnet-node#readme",
+  "dependencies": {
+    "artnet-node": "github:mauriciomassaia/artnet-node",
+    "commander": "^2.10.0",
+    "debug": "^2.6.8",
+    "lodash.foreach": "^4.5.0",
+    "midi": "^0.9.5"
+  }
+}
