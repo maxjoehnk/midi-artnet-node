@@ -27,7 +27,7 @@
   "dependencies": {
     "artnet-node": "github:mauriciomassaia/artnet-node",
     "commander": "^2.10.0",
-    "convict": "^4.0.0",
+    "convict": "^6.2.2",
     "convict-commander": "^2.0.0",
     "debug": "^2.6.8",
     "lodash.foreach": "^4.5.0",
